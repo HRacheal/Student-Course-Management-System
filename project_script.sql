@@ -47,7 +47,7 @@ INSERT INTO grades (grade_id, student_id, course_id,score ) VALUES
 (10, 5, 103, 79);
 
 
---Query
+--Queries
 SELECT name, score
 FROM Students JOIN Grades USING(student_id)
 WHERE score > 70;
